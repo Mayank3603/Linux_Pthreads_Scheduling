@@ -10,6 +10,12 @@ thing, i.e. counts from 1 – 232.
 - Use the clock gettime() function o compute how long it took to complete a function
 - Use of pthread_schedsetparam() to change priority of the threads.
 
-### 1.1 Result (Histogram)
+#### 1.1 Result (Histogram)
 
 ![Graph1_1](https://github.com/Mayank3603/Linux_Pthreads_Scheduling/assets/107765257/51a3ef95-1749-4c98-ad8f-a806787ea501)
+
+#### 1.1 Time Taken for different Scheduling Patterns :
+
+https://github.com/Mayank3603/Linux_Pthreads_Scheduling/blob/main/src/2021065_1.1/Time_Taken.txt
+
+#### For Further Understanding :
