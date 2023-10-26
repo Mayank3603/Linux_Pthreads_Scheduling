@@ -22,7 +22,7 @@ void* launch_C(void * argument);
 
 int main(){
     FILE *fPtr;
-    fPtr=fopen("Assignment_2_values.txt","w");
+    fPtr=fopen("Time_Taken.txt","w");
     fclose(fPtr);
     
     param.sched_priority=2;
@@ -63,7 +63,7 @@ void* launch_A(void * argument){
     
     pthread_setschedparam(threadA, policy,&param);
     FILE *fptr;
-    fptr=fopen("Assignment_2_values.txt","a");
+    fptr=fopen("Time_Taken.txt","a");
     struct timespec start;
     struct timespec stop;
     double accum;
@@ -93,7 +93,7 @@ void* launch_B(void *argument){
     int policy=SCHED_RR;
     pthread_setschedparam(threadB, policy,&param);
     FILE *fptr;
-    fptr=fopen("Assignment_2_values.txt","a");
+    fptr=fopen("Time_Taken.txt","a");
     struct timespec start;
     struct timespec stop;
     double accum;
@@ -123,7 +123,7 @@ void* launch_C(void *argument){
     int policy=SCHED_FIFO;
     pthread_setschedparam(threadC, policy,&param);
     FILE *fptr;
-    fptr=fopen("Assignment_2_values.txt","a");
+    fptr=fopen("Time_Taken.txt","a");
     struct timespec start;
     struct timespec stop;
     double accum;
