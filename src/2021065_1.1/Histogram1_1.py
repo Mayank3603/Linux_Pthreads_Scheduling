@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-f=open("Assignment_2_values.txt","r")
+f=open("Time_Taken.txt","r")
 values=[]
 values=f.readlines()
 
