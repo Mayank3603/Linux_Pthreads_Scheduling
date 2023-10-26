@@ -19,3 +19,7 @@ thing, i.e. counts from 1 – 232.
 https://github.com/Mayank3603/Linux_Pthreads_Scheduling/blob/main/src/2021065_1.1/Time_Taken.txt
 
 #### For Further Understanding :
+
+https://github.com/Mayank3603/Linux_Pthreads_Scheduling/blob/main/src/2021065_1.1/Documentation_1.1.pdf
+
+## 1.2 Process Sceduling 
